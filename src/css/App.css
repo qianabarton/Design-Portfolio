@@ -95,6 +95,12 @@ a:hover {
 
 /* HEADER */
 
+.ovals {
+    background: url("../img/ovals-blue.png") no-repeat;
+    background-size: 100%;
+}
+
+
 .laptop {
     height: 80vh;
     position: relative;
@@ -113,7 +119,6 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     padding: 0 150px;
-    background: #F5F5F5;
 }
 
 .heading {
@@ -337,7 +342,6 @@ textarea:focus {
 .static-wrapper {
     z-index: 2;
     position: relative;
-    background-color: #fff;
 }
 
 .container {
