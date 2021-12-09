@@ -28,7 +28,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <div className="header">
+        <div className="header container m-center">
           <h1 className="mb-4">
             Hi, I'm
             <span className="blue-accent"> Qiana</span>.
@@ -52,15 +52,14 @@ class About extends Component {
         <Container className="scrollHack">
           <Row>
             <Col sm={8}>
-              <h3 className="mb-4">
+              <h3 className="mb-4 m-center">
                 Who is
                 <span className="accent"> Qiana</span>?
               </h3>
               <p>
-                I’m a UX designer that can also code. I think Sketch is the best
-                thing since sliced bread and I love prototyping. In my free time
-                you can usually find me helping out a friend with their website
-                or logo. I’ve also been working on become a Swift UI master to
+                I’m a UX designer that can also code. I think Figma & Sketch are the best
+                things since sliced bread and I love prototyping. In my free time
+                you can usually find me helping out a friend with their online store or discussing how they can build a team to create their app idea. I’ve also been working on become a Swift UI master to
                 improve my iOS dev skills. When I’m not working on one of my
                 latest project ideas, I’m usually working out, making green
                 smoothies or gardening. People say that I have too many plants.
@@ -119,7 +118,7 @@ class Experience extends Component {
         <Container>
           <Row>
             <Col sm={7}>
-              <h3 className="mb-4">Experience</h3>
+              <h3 className="mb-4 m-center">Experience</h3>
               <p>
                 I started out my career as a QA Tester, but after a lot
                 independent study and work on personal projects, I was able to
@@ -165,8 +164,8 @@ class Experience extends Component {
             <Col sm={5} className="">
               <div className="spacer50 d-md-none" />
               <div className="mb-4">
-                <h4 className="blue-accent">FREELANCE DEV/DESIGNER</h4>
-                <h5>JUNE 2020 - PRESENT</h5>
+                <h4 className="blue-accent">SENIOR CONSULTANT UX/UI DESIGNER</h4>
+                <h5>JULY 2021 - PRESENT</h5>
                 <p>Los Angeles, California</p>
               </div>
               <div className="mb-4">

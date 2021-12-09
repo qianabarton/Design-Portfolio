@@ -8,14 +8,6 @@ const images = [
         original: 'https://github.com/qianabarton/qbdesign.co/blob/master/src/img/projects/misc.png?raw=true',
         thumbnail: 'https://github.com/qianabarton/qbdesign.co/blob/master/src/img/projects/misc.png?raw=true'
     },
-    {
-        original: 'https://github.com/qianabarton/qbdesign.co/blob/master/src/img/projects/webdesign/webdesign2.png?raw=true',
-        thumbnail: 'https://github.com/qianabarton/qbdesign.co/blob/master/src/img/projects/webdesign/webdesign2.png?raw=true'
-    },
-    {
-        original: 'https://github.com/qianabarton/qbdesign.co/blob/master/src/img/projects/webdesign/webdesign3.png?raw=true',
-        thumbnail: 'https://github.com/qianabarton/qbdesign.co/blob/master/src/img/projects/webdesign/webdesign3.png?raw=true'
-    }
 
 ];
 
@@ -25,10 +17,10 @@ export default class WebDesign extends Component {
             <div>
                <ProjectPageComponent
                     title="Misc. Design Projects"
-                    shortdescription="Venue rental web design"
+                    shortdescription="Some of my passion projects"
                     tags="Branding / Web Design"
                     images={images}
-                    description="I worked with Tryon Closet Creative to design a website to that cleanly and simply showcased their venue rental space to their potential customers."
+                    description="Here are some projects I created for the purpose of exercising my design muscles or after being inspired by someone or something to create."
                     prevlink="project-link"
                     prev="/cercacor1"
                     nextlink="project-link"

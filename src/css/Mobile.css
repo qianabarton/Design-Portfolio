@@ -60,6 +60,12 @@
     *
     */
     /* disable parallax on mobile */
+
+    .ovals {
+        background: url("../img/ovals-mobile.png") no-repeat;
+        background-size: cover;
+    }
+    
     .laptop {
         height: 80vh;
         background: url("/img/mobile/laptop-4.jpg") no-repeat;

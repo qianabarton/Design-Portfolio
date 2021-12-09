@@ -20,7 +20,7 @@ export default class Projects extends Component {
         return (
             <div class="projects">
                 <div className="spacer20 d-md-none"/>
-                <h3 className="mb-4 d-md-none h-padding">PROJECTS</h3>
+                <h3 className="mb-4 d-md-none h-padding m-center">PROJECTS</h3>
                 <ProjectShell
                     class="project-top"
                     title="Chat-a-Doc"
@@ -49,7 +49,7 @@ export default class Projects extends Component {
                     class="project-middle"
                     title="Misc. Design Projects"
                     tags="Branding / Web Design"
-                    description="Something here"
+                    description="Some of my passion projects"
                     link="/miscdesign"
                     img={miscdesign}
                     password="false"/>
