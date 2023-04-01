@@ -1,3 +1,3 @@
-# qbdesign.co
+# qbarton.com
 
 My portfolio webpage.
